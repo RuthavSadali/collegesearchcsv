@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Amount Spent",
+      "setup": "sudo -H pip3 install pytest python-dateutil",
+      "run": "pytest test_search.py::Testing::test_amount_spent",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Gender",
+      "setup": "sudo -H pip3 install pytest python-dateutil",
+      "run": "pytest test_search.py::Testing::test_spent_by_gender",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "All Categories",
+      "setup": "sudo -H pip3 install pytest python-dateutil",
+      "run": "pytest test_search.py::Testing::test_all_categories",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "Between Dates",
+      "setup": "sudo -H pip3 install pytest python-dateutil",
+      "run": "pytest test_search.py::Testing::test_spent_between_dates",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    }
+  ]
+}
